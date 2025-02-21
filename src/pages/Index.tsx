@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Shield, Building2, Users, CheckCircle } from "lucide-react";
@@ -16,31 +17,31 @@ const Index = () => {
         </div>
         <div className="container mx-auto px-4 relative">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Security Cleared Talent Solutions
+            Christian Chiacchio
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-2xl">
-            Specialized recruitment for government and contractor positions requiring security clearances
+            Technical Recruitment Professional specializing in Software Development and IT
           </p>
           <Button size="lg" className="bg-[#9b87f5] hover:bg-[#7E69AB]">
-            Find Top Talent
+            View My Experience
           </Button>
         </div>
       </div>
 
-      {/* Services Section */}
+      {/* Experience Section */}
       <div className="py-16 container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12 text-[#1A1F2C]">
-          Our Specialized Services
+          Areas of Expertise
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <Card className="border-2">
             <CardHeader>
               <Shield className="h-10 w-10 mb-2 text-[#9b87f5]" />
-              <CardTitle>Security Clearance Expertise</CardTitle>
+              <CardTitle>Technical Recruitment</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-gray-600">
-                Specialized in placing candidates with active security clearances across various classification levels.
+                Specialized in recruiting software developers, data analysts, and IT professionals across multiple technologies.
               </p>
             </CardContent>
           </Card>
@@ -48,11 +49,11 @@ const Index = () => {
           <Card className="border-2">
             <CardHeader>
               <Building2 className="h-10 w-10 mb-2 text-[#9b87f5]" />
-              <CardTitle>Government Contractors</CardTitle>
+              <CardTitle>Government Contracting</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-gray-600">
-                Deep relationships with leading government contractors and agencies nationwide.
+                Experience with government contractors and managing client relationships in healthcare and technology sectors.
               </p>
             </CardContent>
           </Card>
@@ -60,33 +61,33 @@ const Index = () => {
           <Card className="border-2">
             <CardHeader>
               <Users className="h-10 w-10 mb-2 text-[#9b87f5]" />
-              <CardTitle>Talent Network</CardTitle>
+              <CardTitle>Healthcare Recruitment</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-gray-600">
-                Access to a vast network of pre-screened, cleared professionals ready for deployment.
+                Expertise in placing medical directors, nursing practitioners, and healthcare professionals.
               </p>
             </CardContent>
           </Card>
         </div>
       </div>
 
-      {/* Why Choose Us Section */}
+      {/* Skills Section */}
       <div className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold mb-12 text-[#1A1F2C]">
-                Why Choose Greenview Search
+                Technical Expertise
               </h2>
               <div className="grid gap-6">
                 {[
-                  "Specialized in security clearance positions",
-                  "20+ years of government sector experience",
-                  "Extensive contractor network",
-                  "Rapid placement capabilities",
-                  "Compliance expertise",
-                  "Dedicated account management"
+                  "Java, C, C++, Ruby, Python Development",
+                  "SAP ABAP and Technical Recruitment",
+                  "UI/UX Designers and Frontend Development",
+                  "Healthcare Technology Solutions",
+                  "Project Management",
+                  "Business Development"
                 ].map((item, index) => (
                   <div key={index} className="flex items-center gap-4">
                     <CheckCircle className="h-6 w-6 text-[#9b87f5] flex-shrink-0" />
@@ -107,23 +108,16 @@ const Index = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="container mx-auto px-4 py-16 text-center relative">
-        <div className="absolute inset-0 opacity-10">
-          <img 
-            src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
-            alt="Background"
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div className="relative">
+      <div className="container mx-auto px-4 py-16 text-center">
+        <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-6 text-[#1A1F2C]">
-            Ready to Find Your Next Security Cleared Professional?
+            Let's Connect
           </h2>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Let us help you navigate the complex world of cleared recruitment
+          <p className="text-xl text-gray-600 mb-8">
+            Looking for expert recruitment services in technology and healthcare? Let's discuss how I can help you find the perfect talent for your organization.
           </p>
           <Button size="lg" className="bg-[#9b87f5] hover:bg-[#7E69AB]">
-            Contact Us Today
+            Contact Me
           </Button>
         </div>
       </div>
